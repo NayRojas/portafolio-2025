@@ -30,21 +30,22 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hi, I am Nay Rojas"
+					tagline="I am a Creative Developer who is currently based in Perú."
 					align="start"
 				>
 					<div class="roles">
 						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
+						<Pill><Icon icon="microphone-stage" size="1.33em" /> Product Designer</Pill>
 						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Nayllen Rojas smiling in a red plaid shirt and tortoise shell glasses"
 					width="480"
 					height="620"
+					style="object-fit: cover; object-position: bottom; margin: auto;"
 					src="/assets/portrait.jpg"
 				/>
 			</header>
@@ -81,17 +82,16 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Articles & Content</h3>
 					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
+						I write about frontend development, digital creativity, personal growth, and the power of storytelling in tech. Here you’ll find my latest articles, reflections, and visual narratives—where code meets purpose and creativity.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							['Medium', 'TechCrunch'].map((brand) => (
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>
