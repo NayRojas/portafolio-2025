@@ -22,10 +22,10 @@ During my time at BCP (Banco de Crédito del Perú), I contributed to several cr
   I collaborated on the implementation of a unified login solution that streamlined authentication across various BCP products and platforms, ensuring consistency and reducing friction for end users.
 
 - **Homebanking (Banca por Internet):**  
-  I worked on refining the digital banking interface, focusing on performance, responsive design, and accessibility. This involved crafting reusable components and enhancing flows such as transfers, account summaries, and transactional UI feedback.
+  I worked on refining the digital banking interface, focusing on performance, responsive design, and accessibility.s
 
 #### Technical and Strategic Impact
 
-In these roles, I applied frontend technologies such as Angular, TypeScript, RxJS, and SCSS. I emphasized modularity, reusability, and secure coding practices. My work also contributed to reducing support incidents, improving login times, and aligning web components with BCP’s design system.
+In these roles, I applied frontend technologies such as Angular. I emphasized modularity, reusability, and secure coding practices. My work also contributed to reducing support incidents, improving performance, and aligning web components with BCP’s design system.
 
 These experiences strengthened my ability to deliver at scale, collaborate with large multidisciplinary teams, and develop secure, high-performance web interfaces for one of the largest financial institutions in the region.

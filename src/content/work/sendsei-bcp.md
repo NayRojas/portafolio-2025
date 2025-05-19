@@ -16,7 +16,7 @@ At [Sendsei](https://sendseibcp.com/), I’ve been part of a bold initiative to 
 
 As a frontend developer, I’ve been responsible for developing and maintaining core user-facing features, working on responsive interfaces, optimizing transactional flows, and ensuring accessibility. I contributed to improving usability across devices and browsers, while reinforcing UI consistency through scalable design systems.
 
-Using Angular, TypeScript, RxJS, and modular architecture principles, I collaborated closely with backend teams, product managers, and QA to guarantee stable, testable, and high-performing web components. I also helped implement caching strategies and service worker-based optimizations for better user experiences in lower-connectivity areas.
+Using Angular, and modular architecture principles, I collaborated closely with backend teams, product managers, and QA to guarantee stable, testable, and high-performing web components. I also helped implement caching strategies and service worker-based optimizations for better user experiences in lower-connectivity areas.
 
 #### Where User-Centered Design Meets Fintech Innovation
 
