@@ -1,0 +1,127 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About |Nay Rojas" description="AboutNay Rojas Lorem Ipsum">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.jpg"
+					alt="Jeanine White at work with a colleague"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						I’m a Frontend Developer with experience building scalable, user-centered digital products. Trained at Laboratoria, I’ve contributed to projects in fintech, remittances, and financial services. My work blends technology, design, and empathy to create accessible and meaningful user experiences. I’m passionate about continuous learning, personal growth, and sharing knowledge—especially with women in tech. For me, every line of code is an opportunity to create impact and elevate human connection through design.
+					</p>
+					<br>
+					<p>
+						I have a strong focus on user-centered design and brand building, collaborating closely with multidisciplinary teams to develop cohesive digital identities and intuitive product experiences. My background in art and storytelling fuels my creative approach, helping products not only function well—but feel human.
+					</p>
+					<br>
+					<p>
+						Beyond my daily work, I’m actively involved in women-led communities at NTT Data and other knowledge-sharing spaces. I’ve participated as a speaker, mentor, and collaborator in initiatives that empower women in technology, and believe deeply in building inclusive environments where we can all grow, connect, and lead.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p>Proudly <a href="https://www.laboratoria.la/">Laboratoria 🤎</a></p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<ul>
+						<li>HTML, CSS, JavaScript</li>
+						<li>Angular (v14+), Astro, basic React</li>
+						<li>TypeScript</li>
+						<li>Git & GitHub</li>
+						<li>Figma & UI/UX design</li>
+						<li>Responsive Design</li>
+						<li>Web Accessibility (a11y)</li>
+						<li>REST APIs & service integration</li>
+						<li>GraphQL (with Apollo Angular)</li>
+						<li>Testing (Jest, basic Cypress)</li>
+						<li>Service Workers & PWA</li>
+						<li>Effective communication & team leadership</li>
+						<li>Creative writing and digital art as personal expression</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
